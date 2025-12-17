@@ -1,26 +1,12 @@
 --=============================================================================
 -- @file mandelbrot.vhdl
 --=============================================================================
--- Standard library
 library ieee;
--- Standard packages
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
--- Packages
 library work;
 use work.dsd_prj_pkg.all;
 
---=============================================================================
---
--- mandelbrot
---
--- @brief This file specifies a basic circuit for mandelbrot
---
---=============================================================================
-
---=============================================================================
--- ENTITY DECLARATION FOR MANDELBROT
---=============================================================================
 entity mandelbrot is
   port (
     CLKxCI : in std_logic;
@@ -33,15 +19,12 @@ entity mandelbrot is
   );
 end entity mandelbrot;
 
---=============================================================================
--- ARCHITECTURE DECLARATION
---=============================================================================
 architecture rtl of mandelbrot is
--- State machine
+  -- State machine
   type state_t is (INIT_PIXEL, ITERATE, WRITE_PIXEL);
   signal state : state_t;
 
-  -- Coordinates
+  -- Coordinates (now 256x192)
   signal x_cnt : unsigned(COORD_BW - 1 downto 0);
   signal y_cnt : unsigned(COORD_BW - 1 downto 0);
 
@@ -54,11 +37,13 @@ architecture rtl of mandelbrot is
 
   signal iter_cnt : unsigned(MEM_DATA_BW-1 downto 0);
 
+  -- Increments scaled for 256x192 (4x larger than original)
+  constant C_RE_INC_SCALED : q_t := shift_left(C_RE_INC, 2);  -- 4 * C_RE_INC
+  constant C_IM_INC_SCALED : q_t := shift_left(C_IM_INC, 2);  -- 4 * C_IM_INC
+
 begin
 
-  -----------------------------------------------------------------------------
   process(CLKxCI, RSTxRI)
-    
     variable z_re_v, z_im_v : q_t;
     variable z_re_sq_v, z_im_sq_v, z_re_im_v : q2_t;
     variable iter_v : unsigned(MEM_DATA_BW-1 downto 0);
@@ -72,7 +57,6 @@ begin
 
     if rising_edge(CLKxCI) then
       if RSTxRI = '1' then
-        -- Reset all signals
         state    <= INIT_PIXEL;
         x_cnt    <= (others => '0');
         y_cnt    <= (others => '0');
@@ -88,21 +72,17 @@ begin
 
         case state is
 
-          -------------------------------------------------------------------
           when INIT_PIXEL =>
-              z_re     <= (others => '0');
-              z_im     <= (others => '0');
-              iter_cnt <= (others => '0');
-              state    <= ITERATE;
+            z_re     <= (others => '0');
+            z_im     <= (others => '0');
+            iter_cnt <= (others => '0');
+            state    <= ITERATE;
             
-          -------------------------------------------------------------------
           when ITERATE =>
-            -- Compute squares and product
             z_re_sq_v  := resize(z_re_v * z_re_v, 2*N_BITS);
             z_im_sq_v  := resize(z_im_v * z_im_v, 2*N_BITS);
             z_re_im_v  := resize(z_re_v * z_im_v, 2*N_BITS);
 
-            -- Escape check
             if (shift_right(z_re_sq_v + z_im_sq_v, N_FRAC) >=
                  to_signed(ITER_LIM, 2*N_BITS)) or
                (iter_v = to_unsigned(MAX_ITER, MEM_DATA_BW)) then
@@ -117,34 +97,31 @@ begin
               iter_v := iter_v + 1;
             end if;
 
-
-            -- Update signals
             z_re <= z_re_v;
             z_im <= z_im_v;
             iter_cnt <= iter_v;
 
-          -------------------------------------------------------------------
           when WRITE_PIXEL =>
-            -- Output pixel
+            -- Output pixel (coordinates are already 0-255 and 0-191)
             XxDO    <= x_cnt;
             YxDO    <= y_cnt;
             ITERxDO <= iter_cnt;
             WExSO   <= '1';
 
-            -- Advance pixel coordinates
-            if x_cnt = to_unsigned(HS_DISPLAY-1, COORD_BW) then
+            -- Advance pixel coordinates (256x192 resolution)
+            if x_cnt = to_unsigned(255, COORD_BW) then  -- 256 pixels wide
               x_cnt <= (others => '0');
               c_re <= C_RE_0;
-              if y_cnt = to_unsigned(VS_DISPLAY-1, COORD_BW) then
+              if y_cnt = to_unsigned(191, COORD_BW) then  -- 192 pixels tall
                 y_cnt <= (others => '0');
                 c_im <= C_IM_0;
               else
                 y_cnt <= y_cnt + 1;
-                c_im <= c_im + C_IM_INC;
+                c_im <= c_im + C_IM_INC_SCALED;  -- Use scaled increment
               end if;
             else
               x_cnt <= x_cnt + 1;
-              c_re <= c_re + C_RE_INC;
+              c_re <= c_re + C_RE_INC_SCALED;  -- Use scaled increment
             end if;
 
             state <= INIT_PIXEL;
@@ -155,6 +132,3 @@ begin
   end process;
 
 end architecture rtl;
---=============================================================================
--- ARCHITECTURE END
---=============================================================================

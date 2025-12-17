@@ -39,7 +39,12 @@ entity mandelbrot_top is
     RedxSO   : out std_logic_vector(COLOR_BW - 1 downto 0);
     GreenxSO : out std_logic_vector(COLOR_BW - 1 downto 0);
     BluexSO  : out std_logic_vector(COLOR_BW - 1 downto 0)
+    
+
   );
+  
+
+  
 end mandelbrot_top;
 
 --=============================================================================
@@ -81,6 +86,9 @@ architecture rtl of mandelbrot_top is
   signal BallXxD  : unsigned(COORD_BW - 1 downto 0); -- Coordinates of ball and plate
   signal BallYxD  : unsigned(COORD_BW - 1 downto 0);
   signal PlateXxD : unsigned(COORD_BW - 1 downto 0);
+  
+  signal DrawBallxS  : std_logic;  -- ADD HERE
+  signal DrawPlatexS : std_logic;  -- ADD HERE
 
   -- mandelbrot
   signal MandelbrotWExS   : std_logic; -- If 1, Mandelbrot writes
@@ -261,24 +269,46 @@ begin
 --=============================================================================
 -- MEMORY SIGNAL MAPPING
 --=============================================================================
-
--- Port A (Mandelbrot writes)
+-- Port A (Mandelbrot writes) - coordinates are already 256x192
 ENAxS     <= MandelbrotWExS;
 WEAxS     <= (others => MandelbrotWExS);
-WrAddrAxD <= std_logic_vector(resize(MandelbrotYxD * to_unsigned(HS_DISPLAY, COORD_BW) + MandelbrotXxD, MEM_ADDR_BW));
+WrAddrAxD <= std_logic_vector(resize(MandelbrotYxD(7 downto 0), 8)) & 
+             std_logic_vector(resize(MandelbrotXxD(7 downto 0), 8));
 DINAxD    <= std_logic_vector(MandelbrotITERxD);
 
--- Port B (VGA reads)
+-- Port B (VGA reads) - scale down to 256x192
 ENBxS     <= '1';
-RdAddrBxD <= std_logic_vector(resize(YCoordxD * to_unsigned(HS_DISPLAY, COORD_BW) + XCoordxD, MEM_ADDR_BW));
+RdAddrBxD <= std_logic_vector(YCoordxD(9 downto 2)) & std_logic_vector(XCoordxD(9 downto 2));
+
 
 --=============================================================================
--- SPRITE SIGNAL MAPPING
+-- BACKGROUND COLOR EXTRACTION
+--=============================================================================
+  BGRedxS   <= DOUTBxD(3 * COLOR_BW - 1 downto 2 * COLOR_BW);
+  BGGreenxS <= DOUTBxD(2 * COLOR_BW - 1 downto 1 * COLOR_BW);
+  BGBluexS  <= DOUTBxD(1 * COLOR_BW - 1 downto 0);
+  
+  
+--=============================================================================
+-- SPRITE DRAWING LOGIC
 --=============================================================================
 
-BGRedxS   <= std_logic_vector(DOUTBxD(MEM_DATA_BW-1 downto MEM_DATA_BW/3));
-BGGreenxS <= std_logic_vector(DOUTBxD(MEM_DATA_BW/3-1 downto MEM_DATA_BW/3*2));
-BGBluexS  <= std_logic_vector(DOUTBxD(MEM_DATA_BW/3-1 downto 0));
+  -- Draw ball
+  DrawBallxS <= '1' when (XCoordxD >= BallXxD and
+                          XCoordxD < BallXxD + BALL_WIDTH and
+                          YCoordxD >= BallYxD and
+                          YCoordxD < BallYxD + BALL_HEIGHT) else '0';
+
+  -- Draw plate
+  DrawPlatexS <= '1' when (XCoordxD >= PlateXxD and
+                           XCoordxD < PlateXxD + PLATE_WIDTH and
+                           YCoordxD >= PLATE_Y and
+                           YCoordxD < PLATE_Y + PLATE_HEIGHT) else '0';
+
+  -- RGB output: Ball and plate are white, otherwise show background
+  RedxS   <= "1111" when (DrawBallxS = '1' or DrawPlatexS = '1') else BGRedxS;
+  GreenxS <= "1111" when (DrawBallxS = '1' or DrawPlatexS = '1') else BGGreenxS;
+  BluexS  <= "1111" when (DrawBallxS = '1' or DrawPlatexS = '1') else BGBluexS;
 
 end rtl;
 --=============================================================================
