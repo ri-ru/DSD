@@ -21,6 +21,8 @@ Vivado simulation/build/cache directories (`.cache`, `.gen`, `.runs`, `.sim`, `.
 
 Every copied file is checked against its source using SHA-256. The manifest records its original relative path, repository path, byte size, and digest. Pending cloud-only items are explicitly recorded rather than replaced with empty files.
 
+The completed recovery contains **113 files (33.14 MB)**, including 98 files from `dsd_ill` and 15 distinct neighboring/local-export source variants. All selected cloud-only files were downloaded successfully; no pending cloud-only files remain. Neighboring source files identical to already preserved contents are omitted as duplicates.
+
 All three video files and all three audio files were successfully inspected with `ffprobe` and fully decoded with `ffmpeg` without reported errors. The original videos contain 1920×1080 H.264 video and AAC audio. Their reported durations are approximately 36.750, 96.984, and 39.317 seconds. The audio durations are approximately 60.245, 85.803, and 14.060 seconds. The recovered PPTX/DOCX presentation files passed ZIP integrity checks.
 
 Vivado is not installed on this machine, so synthesis, implementation, hardware programming, and board-level operation have not been rerun. Historical XPR/Tcl files retain original absolute/relative paths and may need source relocation in Vivado. No original HDL has been edited as part of this recovery.

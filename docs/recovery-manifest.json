@@ -653,10 +653,38 @@
       "source_directory": "Desktop/epfl/ma1/DSD"
     },
     {
+      "original_relative_path": "github/DSD/vga_controller.vhdl",
+      "repository_path": "recovered/github/DSD/vga_controller.vhdl",
+      "size_bytes": 6731,
+      "sha256": "ac4342bfe7aeba0a5a052db1322f035aa471e95d3e4236d66631690c28385b6b",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
       "original_relative_path": "lab06_memory_handout/lab/src/vga_controller.vhdl",
       "repository_path": "recovered/lab06_memory_handout/lab/src/vga_controller.vhdl",
       "size_bytes": 2212,
       "sha256": "268426b5339db5a746a91911ea4fe920da28de17b8c0b2692fb86d4cca951448",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "lab06_memory_handout/lab/src/vga_controller_top.vhdl",
+      "repository_path": "recovered/lab06_memory_handout/lab/src/vga_controller_top.vhdl",
+      "size_bytes": 5925,
+      "sha256": "e164c89afc4ba086ed4f38155d4802137d278489b373356c1f535d1a10a48632",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/pong_fsm.vhdl",
+      "repository_path": "recovered/lab07_pong_handout/lab/src/pong_fsm.vhdl",
+      "size_bytes": 9463,
+      "sha256": "41d6d6019498fe0a54f6f03bc61c28ed0b97bee58bc6fefee2675dad487b4a6c",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/pong_top.vhdl",
+      "repository_path": "recovered/lab07_pong_handout/lab/src/pong_top.vhdl",
+      "size_bytes": 9242,
+      "sha256": "d28cee4670ce6bf570d84bf7a88bc92a8e59e81e56cf2cf7777a5a8911ea55ce",
       "source_directory": "Desktop/epfl/ma1/DSD"
     },
     {
@@ -667,94 +695,5 @@
       "source_directory": "Desktop/epfl/ma1/DSD"
     }
   ],
-  "pending_cloud_files": [
-    {
-      "path": "github/DSD/vga_controller.vhdl",
-      "size_bytes": 6731
-    },
-    {
-      "path": "lab05_vga_handout/lab/work_lab05_vga/edadk.conf",
-      "size_bytes": 42
-    },
-    {
-      "path": "lab05_vga_handout/lab/work_lab05_vga/load_board_files.tcl",
-      "size_bytes": 46
-    },
-    {
-      "path": "lab05_vga_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
-      "size_bytes": 2273
-    },
-    {
-      "path": "lab05_vga_handout/lab/src/dsd_prj_pkg.vhdl",
-      "size_bytes": 2190
-    },
-    {
-      "path": "lab05_vga_handout/lab/src/vga_controller_top.vhdl",
-      "size_bytes": 4534
-    },
-    {
-      "path": "lab05_vga_handout/lab/src/vga_controller_tb.vhdl",
-      "size_bytes": 15059
-    },
-    {
-      "path": "lab05_vga_handout/lab/src/vga_controller.vhdl",
-      "size_bytes": 6516
-    },
-    {
-      "path": "lab06_memory_handout/lab/work_lab06_memory/edadk.conf",
-      "size_bytes": 42
-    },
-    {
-      "path": "lab06_memory_handout/lab/work_lab06_memory/load_board_files.tcl",
-      "size_bytes": 46
-    },
-    {
-      "path": "lab06_memory_handout/lab/src/vga_controller_top.vhdl",
-      "size_bytes": 5925
-    },
-    {
-      "path": "lab07_pong_handout/lab/work_lab07_pong/edadk.conf",
-      "size_bytes": 42
-    },
-    {
-      "path": "lab07_pong_handout/lab/work_lab07_pong/load_board_files.tcl",
-      "size_bytes": 46
-    },
-    {
-      "path": "lab07_pong_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
-      "size_bytes": 2530
-    },
-    {
-      "path": "lab07_pong_handout/lab/src/dsd_prj_pkg.vhdl",
-      "size_bytes": 2629
-    },
-    {
-      "path": "lab07_pong_handout/lab/src/pong_top.vhdl",
-      "size_bytes": 9242
-    },
-    {
-      "path": "lab07_pong_handout/lab/src/ImageToCOE.m",
-      "size_bytes": 1115
-    },
-    {
-      "path": "lab07_pong_handout/lab/src/pong_fsm.vhdl",
-      "size_bytes": 9463
-    },
-    {
-      "path": "lab08_mandelbrot_handout/lab/src/dsd_prj_pkg.vhdl",
-      "size_bytes": 5268
-    },
-    {
-      "path": "lab08_mandelbrot_handout/lab/src/mandelbrot.vhdl",
-      "size_bytes": 4122
-    },
-    {
-      "path": "lab08_mandelbrot_handout/lab/src/mandelbrot_top.vhdl",
-      "size_bytes": 10197
-    },
-    {
-      "path": "lab08_mandelbrot_handout/lab/src/mandelbrot_tb.vhdl",
-      "size_bytes": 5094
-    }
-  ]
+  "pending_cloud_files": []
 }
