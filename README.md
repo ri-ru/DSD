@@ -1,3 +1,7 @@
+[![Watch the original Pong logic video — 1 minute 37 seconds](media/pong-logic-preview.gif)](https://github.com/ri-ru/DSD/raw/refs/heads/main/media/pong-logic.mp4)
+
+**[▶ Watch the original video — Pong logic (1:37)](https://github.com/ri-ru/DSD/raw/refs/heads/main/media/pong-logic.mp4)**
+
 # DSD — FPGA Pong with a Mandelbrot background
 
 EPFL Digital System Design project for the **PYNQ-Z2 FPGA board**: VGA output, framebuffer memory, Pong game logic, and a Mandelbrot background, written in VHDL.
@@ -15,7 +19,7 @@ Earlier local source variants and team backups are preserved under [recovered](r
 
 ## Original video and audio
 
-The original recordings are preserved without editing or re-encoding:
+The original recordings are preserved without editing or re-encoding. The featured video above is an MP4 container copy with identical original video and audio streams; its animated thumbnail previews six seconds of the recording.
 
 | Recording | Duration | File |
 | --- | --- | --- |

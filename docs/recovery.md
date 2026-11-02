@@ -26,3 +26,11 @@ The completed recovery contains **113 files (33.14 MB)**, including 98 files fro
 All three video files and all three audio files were successfully inspected with `ffprobe` and fully decoded with `ffmpeg` without reported errors. The original videos contain 1920×1080 H.264 video and AAC audio. Their reported durations are approximately 36.750, 96.984, and 39.317 seconds. The audio durations are approximately 60.245, 85.803, and 14.060 seconds. The recovered PPTX/DOCX presentation files passed ZIP integrity checks.
 
 Vivado is not installed on this machine, so synthesis, implementation, hardware programming, and board-level operation have not been rerun. Historical XPR/Tcl files retain original absolute/relative paths and may need source relocation in Vivado. No original HDL has been edited as part of this recovery.
+
+## Featured README video
+
+The README opens with an animated preview linked to `media/pong-logic.mp4`, the original 1:37 Pong-logic recording in a browser-compatible container. FFmpeg stream-copy remuxing preserves the original encoded H.264 video and AAC audio; SHA-256 hashes of each encoded stream are checked against the MKV source. The MKV is retained unchanged.
+
+The thumbnail is a silent, six-second montage of original footage at 0–2, 34–36, and 68–70 seconds, resized to 960×540 at eight frames per second. It is a clickable preview, not a replacement for the full recording. GitHub strips ordinary HTML video players from README Markdown, so the preview and watch link are placed above the project title.
+
+Regenerate both derived assets with `python3 scripts/prepare-readme-video.py` (requires FFmpeg). The derived preview/MP4 are separate from the manifest of byte-identical recovered originals.
