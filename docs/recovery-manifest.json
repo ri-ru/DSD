@@ -1,0 +1,760 @@
+{
+  "source_directory": "Desktop/epfl/ma1/DSD/dsd_ill",
+  "recovered": [
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 5 - 30-11-2024 19h15 - DIMITRI/TP5 \u2013 VGA controller source code.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 5 - 30-11-2024 19h15 - DIMITRI/TP5 \u2013 VGA controller source code.docx",
+      "size_bytes": 15797,
+      "sha256": "e1c19261f6e134963158fce32a0f65b16b9363bc2a6b9e66d2b2b0a67b311d8b"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 5 - 30-11-2024 19h15 - DIMITRI/lab_week10_dimitri_pelgrin/lab_week10_dimitri_pelgrin.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 5 - 30-11-2024 19h15 - DIMITRI/lab_week10_dimitri_pelgrin/lab_week10_dimitri_pelgrin.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci",
+      "size_bytes": 101358,
+      "sha256": "74302d5b8688fc4e3e46ff90919e778de2a6123368bfa1b6b42f9e1317850d23"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 5 - 30-11-2024 19h15 - DIMITRI/lab_week10_dimitri_pelgrin/lab_week10_dimitri_pelgrin.xpr",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 5 - 30-11-2024 19h15 - DIMITRI/lab_week10_dimitri_pelgrin/lab_week10_dimitri_pelgrin.xpr",
+      "size_bytes": 14351,
+      "sha256": "e0bca0507d6cbd3168f8aec1e0e409c57c25cafb56c8a226f32554a11b793a57"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 6 - FRAMEBUFFER - single line added to the top file/TP6 - Single line to be added at the top file.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 6 - FRAMEBUFFER - single line added to the top file/TP6 - Single line to be added at the top file.docx",
+      "size_bytes": 12353,
+      "sha256": "ac767219bed68c5cfa6351ab7249e59777dfbf1df1e5196358510a1fa57a49ea"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 07-12-2024 - DIMITRI/TP8 - Source code of mandelbrot.vhdl.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 07-12-2024 - DIMITRI/TP8 - Source code of mandelbrot.vhdl.docx",
+      "size_bytes": 15791,
+      "sha256": "fdd9ac7f10562902cca614098440f428f25a1df0ce3c624e176470c0783e9a38"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 10-12-2024 21h50 - DIMITRI/file mandelbrot 10-10-2024 21h50.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 10-12-2024 21h50 - DIMITRI/file mandelbrot 10-10-2024 21h50.docx",
+      "size_bytes": 16614,
+      "sha256": "ef76b7cb305e58030b8d3e5f20239fdd0d552a94c3192dc48f5a330f3b647c67"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 11-12-2024 12h - DIMITRI/mandelbrot.vhdl - 11-12-2024 12h DIMITRI.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 11-12-2024 12h - DIMITRI/mandelbrot.vhdl - 11-12-2024 12h DIMITRI.docx",
+      "size_bytes": 19935,
+      "sha256": "7b81f89dd449ce79f2cae1bb5b3bb5df826d3b70586af307305b35cab446d0fd"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 17-12-2024 12h - DIMITRI/mandelbrot.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 17-12-2024 12h - DIMITRI/mandelbrot.docx",
+      "size_bytes": 9668,
+      "sha256": "c6f879b89cdfaceaeadb26aa0c12adfa3c73eaf75ecb15b6a2f9c93ba410b5b6"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 17-12-2024 12h - DIMITRI/mandelbrot_top.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 17-12-2024 12h - DIMITRI/mandelbrot_top.docx",
+      "size_bytes": 10061,
+      "sha256": "8b04837010a5f4790d9305b6dd5d62784a6386fa74397d3e0f85e453cc9f0e7f"
+    },
+    {
+      "original_relative_path": "DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 17-12-2024 12h - DIMITRI/vga_controller.docx",
+      "repository_path": "recovered/dsd_ill/DIMITRI BACKUP - LAB 5-6 AND 8 - LAST UPDATE ON 08-12-2024/LAB 8 - 17-12-2024 12h - DIMITRI/vga_controller.docx",
+      "size_bytes": 8884,
+      "sha256": "9144c6f636fe9e0e5f711d1a0cd2845776e34e3bea4c6f4306c13132908c45fa"
+    },
+    {
+      "original_relative_path": "FINAL FILES/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/dsd_prj_pkg.vhdl",
+      "size_bytes": 5267,
+      "sha256": "5c3b63c369f7c62f5305fdf68ebe9d9d2bf828483a471d793f37ad166607bcab"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/DSD-Lab8_mandelbrot.pdf",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/DSD-Lab8_mandelbrot.pdf",
+      "size_bytes": 1223753,
+      "sha256": "faa9c4f93db1efb9d683037a94b26c53d2e517c7389eca6b68c754ece3d2f126"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "size_bytes": 2530,
+      "sha256": "caa8ea6ec52a3743bbff99df2f46d505e7923ad271d414565ce921556a400462"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/board.xml",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/board.xml",
+      "size_bytes": 54479,
+      "sha256": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "size_bytes": 9007,
+      "sha256": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "size_bytes": 74492,
+      "sha256": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/pynq/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "size_bytes": 175776,
+      "sha256": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/src/ViewTBImgFile.m",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/src/ViewTBImgFile.m",
+      "size_bytes": 2246,
+      "sha256": "5506b41f92202dcbb0a43913ce4e623e001e8303b967b9e7ae2595c7bdf281d1"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/src/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 5267,
+      "sha256": "5c3b63c369f7c62f5305fdf68ebe9d9d2bf828483a471d793f37ad166607bcab"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot.vhdl",
+      "size_bytes": 7572,
+      "sha256": "0b03bc91c95811fb3d2e63f654cf8c3daae38ab99f8ab65b1888859f2d406445"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot_tb.png",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot_tb.png",
+      "size_bytes": 96366,
+      "sha256": "7bfa4593bae4ac214231bf1518098df998d14597ce0fa4f6abf5c311036da718"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot_tb.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot_tb.vhdl",
+      "size_bytes": 5094,
+      "sha256": "3013eda169dd1cd70ff9087db4f932786aaca82cf1aa96044d465fc55b6d4a9f"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot_top.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/src/mandelbrot_top.vhdl",
+      "size_bytes": 13318,
+      "sha256": "5b766ade1d9b0502af10b8319d2d2ecbfbc78adb0f22aceb7b3ca74abea70392"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/work_lab08_mandelbrot/edadk.conf",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/work_lab08_mandelbrot/edadk.conf",
+      "size_bytes": 42,
+      "sha256": "2da1ceb1f171e746e7de42f222c0a6c514549b6146832105ca9bfe18038de506"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab08_mandelbrot_handout/lab/work_lab08_mandelbrot/load_board_files.tcl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab08_mandelbrot_handout/lab/work_lab08_mandelbrot/load_board_files.tcl",
+      "size_bytes": 46,
+      "sha256": "cb08e622f9e42c91247f1ff5373d3cd4e8184f02420569f3eaa6d3936f28f740"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci",
+      "size_bytes": 49399,
+      "sha256": "84e858f5f5ba7b851148ae328e7bbb53c664a0c30f1174b58b12c5fa509cdcc6"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci",
+      "size_bytes": 49399,
+      "sha256": "3fceebc9c8f3c2098128f125eace452d155dd5d15149753626d02542ece9eba0"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci",
+      "size_bytes": 101118,
+      "sha256": "acd3f0743806cb28949e35e06ed53f310e8077cecc11973b427c0ff9ad18862e"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/new/pong_fsm.vhd",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/new/pong_fsm.vhd",
+      "size_bytes": 9584,
+      "sha256": "d98f01da2fed890d41e9eeb4cf99a682431d7f39ade590e5a00384262db43ea6"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/new/vga_controller.vhd",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.srcs/sources_1/new/vga_controller.vhd",
+      "size_bytes": 6152,
+      "sha256": "922683aded3ec7e8e232bb391cf6c1736e306db93ca23ef6cc7fc4551ebd9cad"
+    },
+    {
+      "original_relative_path": "FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.xpr",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/lab81/project_lab8_mandelbrot/project_lab8_mandelbrot.xpr",
+      "size_bytes": 17639,
+      "sha256": "81339f06d6a41bbad453682136da608971d65bffbc17bd4ef788ddbe7ca9c49f"
+    },
+    {
+      "original_relative_path": "FINAL FILES/mandelbrot.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/mandelbrot.vhdl",
+      "size_bytes": 7572,
+      "sha256": "0b03bc91c95811fb3d2e63f654cf8c3daae38ab99f8ab65b1888859f2d406445"
+    },
+    {
+      "original_relative_path": "FINAL FILES/mandelbrot_top.vhdl",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/mandelbrot_top.vhdl",
+      "size_bytes": 13318,
+      "sha256": "5b766ade1d9b0502af10b8319d2d2ecbfbc78adb0f22aceb7b3ca74abea70392"
+    },
+    {
+      "original_relative_path": "FINAL FILES/pong_fsm.vhd",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/pong_fsm.vhd",
+      "size_bytes": 9584,
+      "sha256": "d98f01da2fed890d41e9eeb4cf99a682431d7f39ade590e5a00384262db43ea6"
+    },
+    {
+      "original_relative_path": "FINAL FILES/vga_controller.vhd",
+      "repository_path": "recovered/dsd_ill/FINAL FILES/vga_controller.vhd",
+      "size_bytes": 6152,
+      "sha256": "922683aded3ec7e8e232bb391cf6c1736e306db93ca23ef6cc7fc4551ebd9cad"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/DOGGO.jpeg",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/DOGGO.jpeg",
+      "size_bytes": 179309,
+      "sha256": "00448382cafa29de072b6c666ce2d66e911376310642a19665033f92f76c6833"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/machinelearningwithvivado.png",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/machinelearningwithvivado.png",
+      "size_bytes": 2056222,
+      "sha256": "ed7ca186c2235e86eb0d72c93e1780785e78b21ecfbeaa8d159b67363b7f0e45"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/mylifeatepfl.png",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/mylifeatepfl.png",
+      "size_bytes": 393110,
+      "sha256": "5ae463f1857cc8a8d5d76cb62f96f48318307fec4c9468661c048f98d77ac9de"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/paolone.jpg",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/paolone.jpg",
+      "size_bytes": 29455,
+      "sha256": "943d4c838120de9411e6fef389bee3b8aa51da9c2d83710d641e1a1a16247bac"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/vsdin(1).coe",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/vsdin(1).coe",
+      "size_bytes": 256250,
+      "sha256": "2bcc903a6010390d2c795a3af343141f354b1e72ddc45cee32370556129586ac"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/vsdin(2).coe",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/vsdin(2).coe",
+      "size_bytes": 193426,
+      "sha256": "7f71f71d47702e35820823a5fb25c3f83f0d582149663f0cc9e1b86f758f1de8"
+    },
+    {
+      "original_relative_path": "Handy pics and failed .ceo files/vsdin.coe",
+      "repository_path": "recovered/dsd_ill/Handy pics and failed .ceo files/vsdin.coe",
+      "size_bytes": 192274,
+      "sha256": "245fc4573363e8f97da0b65219422e9ac1f18d38c7d19fe72ec166c9695d8d10"
+    },
+    {
+      "original_relative_path": "JAN BACKUP - LAST UPDATE ON 08-12-2024/Dec 15/mandelbrot_top.vhdl",
+      "repository_path": "recovered/dsd_ill/JAN BACKUP - LAST UPDATE ON 08-12-2024/Dec 15/mandelbrot_top.vhdl",
+      "size_bytes": 7698,
+      "sha256": "0ec5c5fe4f64cc287835fd58c3fbc22637fef359f40ef2f2e10243c6420e53aa"
+    },
+    {
+      "original_relative_path": "JAN BACKUP - LAST UPDATE ON 08-12-2024/mandelbrot.vhdl.docx",
+      "repository_path": "recovered/dsd_ill/JAN BACKUP - LAST UPDATE ON 08-12-2024/mandelbrot.vhdl.docx",
+      "size_bytes": 9651,
+      "sha256": "8325ef7d64ec8016d5569aa4aadce039f9de07981264220ecf99323c617f8527"
+    },
+    {
+      "original_relative_path": "Labo7 source file/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/Labo7 source file/dsd_prj_pkg.vhdl",
+      "size_bytes": 2632,
+      "sha256": "1a49098c46239085d8d18db404f3867203dab4d526ccfd2de15c3e1190249d84"
+    },
+    {
+      "original_relative_path": "Labo7 source file/pong_fsm.vhdl",
+      "repository_path": "recovered/dsd_ill/Labo7 source file/pong_fsm.vhdl",
+      "size_bytes": 9098,
+      "sha256": "91a244a41322dabfb66a75fce999379a1bb2d46e855bc7c2a2f5604d1f375513"
+    },
+    {
+      "original_relative_path": "Labo7 source file/pong_top.vhdl",
+      "repository_path": "recovered/dsd_ill/Labo7 source file/pong_top.vhdl",
+      "size_bytes": 9075,
+      "sha256": "8323f63913da99e3fb30fb4c8bd74d10e251440e8eaf7bf54d9e888c78ca923a"
+    },
+    {
+      "original_relative_path": "Labo7 source file/vga_controller.vhdl",
+      "repository_path": "recovered/dsd_ill/Labo7 source file/vga_controller.vhdl",
+      "size_bytes": 6108,
+      "sha256": "df48c30fb23097f29ab4c097c54f5ac7e92661fbba64b64c7fa20b19b24a5ecd"
+    },
+    {
+      "original_relative_path": "Slides and video/Audio + Video Max/Conclusion Max.mkv",
+      "repository_path": "recovered/dsd_ill/Slides and video/Audio + Video Max/Conclusion Max.mkv",
+      "size_bytes": 2340309,
+      "sha256": "9fa74b994ad72eb51dd98845eee50a0b39c3b65968744f5cc70292aa75468f05"
+    },
+    {
+      "original_relative_path": "Slides and video/Audio + Video Max/Introduction Max.mkv",
+      "repository_path": "recovered/dsd_ill/Slides and video/Audio + Video Max/Introduction Max.mkv",
+      "size_bytes": 2012610,
+      "sha256": "de11a08ff6c56edddeadf1ac8c47409ab8f2d9f35bf1d8e633efe606815ae5d1"
+    },
+    {
+      "original_relative_path": "Slides and video/Audio + Video Max/Pong Logic Max.mkv",
+      "repository_path": "recovered/dsd_ill/Slides and video/Audio + Video Max/Pong Logic Max.mkv",
+      "size_bytes": 6147681,
+      "sha256": "775f15d6e7bb4ec2d1eafa59abfc0137423d95b8971dec82b74a9e32ad0d4648"
+    },
+    {
+      "original_relative_path": "Slides and video/Audio + Video Max/missing part DSD Max.mp3",
+      "repository_path": "recovered/dsd_ill/Slides and video/Audio + Video Max/missing part DSD Max.mp3",
+      "size_bytes": 205190,
+      "sha256": "815c25ccd9379607e102e639388319f5e93dfd3dd6e7f6c686907a5351a4a638"
+    },
+    {
+      "original_relative_path": "Slides and video/Audio - DIMITRI/Mandelbrot recording - Dimitri.m4a",
+      "repository_path": "recovered/dsd_ill/Slides and video/Audio - DIMITRI/Mandelbrot recording - Dimitri.m4a",
+      "size_bytes": 1925722,
+      "sha256": "840b900b94bf5d843931bef49c16c6bdd04a4a8c911414b4b2677d099942994c"
+    },
+    {
+      "original_relative_path": "Slides and video/Audio - DIMITRI/Memory recording - Dimitri.m4a",
+      "repository_path": "recovered/dsd_ill/Slides and video/Audio - DIMITRI/Memory recording - Dimitri.m4a",
+      "size_bytes": 1367528,
+      "sha256": "6b79d8131f7915ed930f8d8b7f6d5b2f30b3ed5051de93b6d9d28f8744c18dc2"
+    },
+    {
+      "original_relative_path": "Slides and video/Final presentation.pptx",
+      "repository_path": "recovered/dsd_ill/Slides and video/Final presentation.pptx",
+      "size_bytes": 1350556,
+      "sha256": "e30ba17f4576c400bbb0eb378e5e5a820b1ef3539b9b519b71a0aa7afef63f0e"
+    },
+    {
+      "original_relative_path": "Slides and video/Presentation structure.docx",
+      "repository_path": "recovered/dsd_ill/Slides and video/Presentation structure.docx",
+      "size_bytes": 7472,
+      "sha256": "82feb870bbdef9d96063deca7bc55c6e3b8e3d5144f6d6d4c0e940f718bd92c8"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/DSD-Lab5_vga.pdf",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/DSD-Lab5_vga.pdf",
+      "size_bytes": 8147966,
+      "sha256": "55dd8e3dd5a41f859a094098985969c0789db9febc2146be38ebd06c03130849"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "size_bytes": 2273,
+      "sha256": "3c209700da266690b9e47e6a2adf531e825432af000beaaa6e482e24d6048f10"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/board.xml",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/board.xml",
+      "size_bytes": 54479,
+      "sha256": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "size_bytes": 9007,
+      "sha256": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "size_bytes": 74492,
+      "sha256": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/pynq/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "size_bytes": 175776,
+      "sha256": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/src/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2190,
+      "sha256": "20430fa6ee98e7f61ac653d5dec3eb2a0b86e70cfbf884418665b085df4fe965"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/src/vga_controller.vhdl",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/src/vga_controller.vhdl",
+      "size_bytes": 3150,
+      "sha256": "2f2acf20b87bd7e48aaeb04fd5013937bbd21870bd9b07e821ebef9fa8cd5e24"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/src/vga_controller_tb.vhdl",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/src/vga_controller_tb.vhdl",
+      "size_bytes": 15059,
+      "sha256": "c85b46ac1b00853dc065a477d0b3f402d422ddb4f4de522ce9361cfe955ec951"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/src/vga_controller_top.vhdl",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/src/vga_controller_top.vhdl",
+      "size_bytes": 4534,
+      "sha256": "4f1a63fa19e0df5ab53ee55ad06d7711807fd4b1d4c76d92e44915a0cdfd51d5"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/work_lab05_vga/edadk.conf",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/work_lab05_vga/edadk.conf",
+      "size_bytes": 42,
+      "sha256": "2da1ceb1f171e746e7de42f222c0a6c514549b6146832105ca9bfe18038de506"
+    },
+    {
+      "original_relative_path": "lab05_vga_handout/lab/work_lab05_vga/load_board_files.tcl",
+      "repository_path": "recovered/dsd_ill/lab05_vga_handout/lab/work_lab05_vga/load_board_files.tcl",
+      "size_bytes": 46,
+      "sha256": "cb08e622f9e42c91247f1ff5373d3cd4e8184f02420569f3eaa6d3936f28f740"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/DSD-Lab7_pong.pdf",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/DSD-Lab7_pong.pdf",
+      "size_bytes": 240427,
+      "sha256": "d1aa874f306b469f2bd97720f8c04cdd0662ecf94841ea1f86737029c598bbb7"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7.1/Lab7.1.xpr",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7.1/Lab7.1.xpr",
+      "size_bytes": 11193,
+      "sha256": "f9b969fa15ec85678496e82eaddaec37b0a938e7cafa64e6f0d269bee5754d49"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.srcs/sim_1/imports/src/pong_tb.vhd",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.srcs/sim_1/imports/src/pong_tb.vhd",
+      "size_bytes": 3141,
+      "sha256": "5f350f49ca4c4eb7ab51afc4266b3b22fbc5e56081da4672ffdd4be05bb774d9"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.srcs/sources_1/imports/src/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.srcs/sources_1/imports/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2629,
+      "sha256": "11b7e56815d688215970eac7682a46efa4efba6db0aa2ae3c79ee82d9c65a693"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.srcs/sources_1/imports/src/pong_fsm.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.srcs/sources_1/imports/src/pong_fsm.vhdl",
+      "size_bytes": 9785,
+      "sha256": "d6db4ede5a3d9576ceff26535ca90da862b16b2d6d8264e0010beb4bc2e28dbe"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.xpr",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7.tbdescouilles/Lab7.tbdescouilles.xpr",
+      "size_bytes": 11130,
+      "sha256": "e5adb7a22c3175ef3389f7e164720c4d69b3ec1360d2de2a5efa338174b64dd1"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7/Lab7.srcs/constrs_1/imports/constr/PYNQ-Z2_v1.0.xdc",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7/Lab7.srcs/constrs_1/imports/constr/PYNQ-Z2_v1.0.xdc",
+      "size_bytes": 2530,
+      "sha256": "caa8ea6ec52a3743bbff99df2f46d505e7923ad271d414565ce921556a400462"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/imports/src/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/imports/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2712,
+      "sha256": "2f483e4bf4e01f8068c8bc75d7961fbc579851d6b33c3374447de744aac234d8"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci",
+      "size_bytes": 49665,
+      "sha256": "e710f87649e5b07e5fb996c72065d499a45a0ee0f63aae5910d38b1c17b7c7dd"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci",
+      "size_bytes": 101099,
+      "sha256": "e88213b2e7db34629a969d6fd9f07f4bfbd4f09ac9fe283a40b31ef0b90b4fa4"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/new/pong_game_controle.vhd",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7/Lab7.srcs/sources_1/new/pong_game_controle.vhd",
+      "size_bytes": 8238,
+      "sha256": "e12fb45e142bf80e774eb885096ba934bc8928ec37060273035632cf18f00a2b"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/Lab7/Lab7.xpr",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/Lab7/Lab7.xpr",
+      "size_bytes": 17088,
+      "sha256": "63f8a907aefa1b74888bf6ea5fc4e586773a04206f7d7d66bf6ad02eedf4f87d"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "size_bytes": 2530,
+      "sha256": "caa8ea6ec52a3743bbff99df2f46d505e7923ad271d414565ce921556a400462"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/board.xml",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/board.xml",
+      "size_bytes": 54479,
+      "sha256": "a565dcb39737d551cbbbb73c0053b973c40bb3dce2274943370d3032c0fea9ae"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "size_bytes": 9007,
+      "sha256": "3c809473938e135a925b563b5371c8687ee05c4089376e7318c0c56524cc8a0f"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "size_bytes": 74492,
+      "sha256": "18528f84aea4da503cdb3104f7706fabfb3b6ad09b78b25199cc316afa4c8cfe"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/pynq/board_files/pynq-z2/A.0/pynq_z2.jpg",
+      "size_bytes": 175776,
+      "sha256": "b6cf32febf4b1995f33c3372ef72f390abf4a5596c73a6fd36810a45ccd0e1f7"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/ImageToCOE.m",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/ImageToCOE.m",
+      "size_bytes": 1115,
+      "sha256": "173837471c9b0e52b4ccd785f3872bdb5f76b951507fa18a4dfb6bb062e4af54"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2629,
+      "sha256": "11b7e56815d688215970eac7682a46efa4efba6db0aa2ae3c79ee82d9c65a693"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/epfl.bmp",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/epfl.bmp",
+      "size_bytes": 2359350,
+      "sha256": "c5837c62cf7957a7f8d54970db008c85fafdfc6b63c5961d3cf09b599bacef59"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/epfl.coe",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/epfl.coe",
+      "size_bytes": 196670,
+      "sha256": "e65c2c134a3a0e82477e5e6b9efe13a5e873e4d69b9559d0be27e399dd1d69ad"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/pong_fsm.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/pong_fsm.vhdl",
+      "size_bytes": 10357,
+      "sha256": "54f47fcde697feed514bb7e2f252d76bdd95b3c72aba3bdafa10df659d351cd0"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/pong_game_controle.vhd",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/pong_game_controle.vhd",
+      "size_bytes": 8238,
+      "sha256": "e12fb45e142bf80e774eb885096ba934bc8928ec37060273035632cf18f00a2b"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/pong_tb.vhd",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/pong_tb.vhd",
+      "size_bytes": 3400,
+      "sha256": "e5ec975045181e89541625762a1c0b9ed709dc18418172825ab13fb80e24d91f"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/pong_top.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/pong_top.vhdl",
+      "size_bytes": 9019,
+      "sha256": "7a3cd4bb908c696ce4dcf5d3553092a5b16d7d433952dc23df1981759eace41f"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/vga_controller.vhdl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/src/vga_controller.vhdl",
+      "size_bytes": 5994,
+      "sha256": "62b5fe72b4915570b52f09e93bc71ff618fb8df9c8ea6c4e78b704112a5b1b25"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/work_lab07_pong/edadk.conf",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/work_lab07_pong/edadk.conf",
+      "size_bytes": 42,
+      "sha256": "2da1ceb1f171e746e7de42f222c0a6c514549b6146832105ca9bfe18038de506"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/work_lab07_pong/load_board_files.tcl",
+      "repository_path": "recovered/dsd_ill/lab07_pong_handout/lab/work_lab07_pong/load_board_files.tcl",
+      "size_bytes": 46,
+      "sha256": "cb08e622f9e42c91247f1ff5373d3cd4e8184f02420569f3eaa6d3936f28f740"
+    },
+    {
+      "original_relative_path": "lab_5/lab_5.xpr",
+      "repository_path": "recovered/dsd_ill/lab_5/lab_5.xpr",
+      "size_bytes": 11214,
+      "sha256": "f34a229b62ca35d5999eaeef5f3f6c267354d093d5bbd8063ebb5408c9c7a90f"
+    },
+    {
+      "original_relative_path": "pong_top.vhdl",
+      "repository_path": "recovered/dsd_ill/pong_top.vhdl",
+      "size_bytes": 9012,
+      "sha256": "cdce1c267d6b30915e1924d67661921cd71796d721c27108dc4406f5acbf3bd4"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/pynq/board_files/pynq-z2/A.0/board.xml",
+      "repository_path": "recovered/github/DSD/lab6_mem/pynq/board_files/pynq-z2/A.0/board.xml",
+      "size_bytes": 55566,
+      "sha256": "20bcc6e5f79339300a2bd2ac6dc69a2ced28b6fccbf95aa7cdc9214cdd102c29",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "repository_path": "recovered/github/DSD/lab6_mem/pynq/board_files/pynq-z2/A.0/part0_pins.xml",
+      "size_bytes": 9141,
+      "sha256": "22bde8258523576bba582f99676f8bb12d2a26526a4ee9f25c5b67a3f721af33",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "repository_path": "recovered/github/DSD/lab6_mem/pynq/board_files/pynq-z2/A.0/preset.xml",
+      "size_bytes": 75590,
+      "sha256": "a88469307212e2d878025402556419753a5dd3d2b68e7d05ee23f0faa73a4f97",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/src/dsd_prj_pkg.vhdl",
+      "repository_path": "recovered/github/DSD/lab6_mem/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2541,
+      "sha256": "38e0bd2ec9716cc938711b04a67e73a41842de13e8567a5d19afcb120cc55031",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/src/epfl.coe",
+      "repository_path": "recovered/github/DSD/lab6_mem/src/epfl.coe",
+      "size_bytes": 196672,
+      "sha256": "e5b62274c7399d049ad50cc2cd3348cffb9f252b1f6ffbc3ce9ff3d7fd6c1f6f",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/src/vga_controller.vhdl",
+      "repository_path": "recovered/github/DSD/lab6_mem/src/vga_controller.vhdl",
+      "size_bytes": 6675,
+      "sha256": "c0f23ac1f6ea371e0cebb7f4fdbe0ad4b2a705c75fe1bd509530bd620f536004",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/src/vga_controller_top.vhdl",
+      "repository_path": "recovered/github/DSD/lab6_mem/src/vga_controller_top.vhdl",
+      "size_bytes": 6759,
+      "sha256": "bbcfc1d4dcda45963f0cf187dbf182e63bedeb679e9a4ae5cc706f82f1e99e8e",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/work_lab06_memory/edadk.conf",
+      "repository_path": "recovered/github/DSD/lab6_mem/work_lab06_memory/edadk.conf",
+      "size_bytes": 46,
+      "sha256": "f0a6866b6cb17eb62b87e59788e294ae1177123760bc7b37e1a5bb0de9704fd4",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "github/DSD/lab6_mem/work_lab06_memory/load_board_files.tcl",
+      "repository_path": "recovered/github/DSD/lab6_mem/work_lab06_memory/load_board_files.tcl",
+      "size_bytes": 47,
+      "sha256": "90f77ea5f96cf370fc96b36759a3cfae407862c29d7d56fa62d8053d558464de",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "lab06_memory_handout/lab/src/vga_controller.vhdl",
+      "repository_path": "recovered/lab06_memory_handout/lab/src/vga_controller.vhdl",
+      "size_bytes": 2212,
+      "sha256": "268426b5339db5a746a91911ea4fe920da28de17b8c0b2692fb86d4cca951448",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    },
+    {
+      "original_relative_path": "lab07_pong_handout/lab/src/vga_controller.vhdl",
+      "repository_path": "recovered/lab07_pong_handout/lab/src/vga_controller.vhdl",
+      "size_bytes": 2197,
+      "sha256": "32e380cbad49f4cf844d22f18f585c72471b2fe06132815f4dc2b2b550f912ac",
+      "source_directory": "Desktop/epfl/ma1/DSD"
+    }
+  ],
+  "pending_cloud_files": [
+    {
+      "path": "github/DSD/vga_controller.vhdl",
+      "size_bytes": 6731
+    },
+    {
+      "path": "lab05_vga_handout/lab/work_lab05_vga/edadk.conf",
+      "size_bytes": 42
+    },
+    {
+      "path": "lab05_vga_handout/lab/work_lab05_vga/load_board_files.tcl",
+      "size_bytes": 46
+    },
+    {
+      "path": "lab05_vga_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "size_bytes": 2273
+    },
+    {
+      "path": "lab05_vga_handout/lab/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2190
+    },
+    {
+      "path": "lab05_vga_handout/lab/src/vga_controller_top.vhdl",
+      "size_bytes": 4534
+    },
+    {
+      "path": "lab05_vga_handout/lab/src/vga_controller_tb.vhdl",
+      "size_bytes": 15059
+    },
+    {
+      "path": "lab05_vga_handout/lab/src/vga_controller.vhdl",
+      "size_bytes": 6516
+    },
+    {
+      "path": "lab06_memory_handout/lab/work_lab06_memory/edadk.conf",
+      "size_bytes": 42
+    },
+    {
+      "path": "lab06_memory_handout/lab/work_lab06_memory/load_board_files.tcl",
+      "size_bytes": 46
+    },
+    {
+      "path": "lab06_memory_handout/lab/src/vga_controller_top.vhdl",
+      "size_bytes": 5925
+    },
+    {
+      "path": "lab07_pong_handout/lab/work_lab07_pong/edadk.conf",
+      "size_bytes": 42
+    },
+    {
+      "path": "lab07_pong_handout/lab/work_lab07_pong/load_board_files.tcl",
+      "size_bytes": 46
+    },
+    {
+      "path": "lab07_pong_handout/lab/constr/PYNQ-Z2_v1.0.xdc",
+      "size_bytes": 2530
+    },
+    {
+      "path": "lab07_pong_handout/lab/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 2629
+    },
+    {
+      "path": "lab07_pong_handout/lab/src/pong_top.vhdl",
+      "size_bytes": 9242
+    },
+    {
+      "path": "lab07_pong_handout/lab/src/ImageToCOE.m",
+      "size_bytes": 1115
+    },
+    {
+      "path": "lab07_pong_handout/lab/src/pong_fsm.vhdl",
+      "size_bytes": 9463
+    },
+    {
+      "path": "lab08_mandelbrot_handout/lab/src/dsd_prj_pkg.vhdl",
+      "size_bytes": 5268
+    },
+    {
+      "path": "lab08_mandelbrot_handout/lab/src/mandelbrot.vhdl",
+      "size_bytes": 4122
+    },
+    {
+      "path": "lab08_mandelbrot_handout/lab/src/mandelbrot_top.vhdl",
+      "size_bytes": 10197
+    },
+    {
+      "path": "lab08_mandelbrot_handout/lab/src/mandelbrot_tb.vhdl",
+      "size_bytes": 5094
+    }
+  ]
+}
